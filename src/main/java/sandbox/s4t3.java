@@ -10,11 +10,11 @@ public class s4t3 {
         String[] names = new String[4];
         int[] yourOfBirth = new int[4];
         int[] age = new int[4];
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < names.length; i++) {
             System.out.println("Введите имя:");
             names[i] = in.nextLine();
         }
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < yourOfBirth.length; i++) {
             System.out.println("Введите год рождения");
             yourOfBirth[i] = in.nextInt();
             age[i] = 2021 - yourOfBirth[i];
