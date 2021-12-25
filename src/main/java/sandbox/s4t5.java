@@ -16,7 +16,7 @@ public class s4t5 {
             System.out.println("Введите имя: ");
             names[i] = in.nextLine();
         }
-        for (int i = number-1; i >=0; i--) {
+        for (int i = number - 1; i >= 0; i--) {
             System.out.println(names[i]);
         }
 
