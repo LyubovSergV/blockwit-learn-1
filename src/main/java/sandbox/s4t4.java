@@ -14,9 +14,9 @@ public class s4t4 {
             System.out.println("Введите температуру");
             temperature[i] = in.nextInt();
             summ = summ + temperature[i];
-            mean = summ / 3;
+            
         }
-
+        mean = summ / 3;
         System.out.println("Средняя температура за три дня: " + mean);
 
         in.close();
