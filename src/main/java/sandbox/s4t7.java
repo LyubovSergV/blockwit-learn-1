@@ -14,7 +14,7 @@ public class s4t7 {
             System.out.println("Введите число");
             number[i] = in.nextInt();
         }
-        if (number[number.length-1]>number[0]) {
+        if (number[number.length - 1] > number[0]) {
             int temp = number[0];
             number[0] = number[number.length - 1];
             number[number.length - 1] = temp;
